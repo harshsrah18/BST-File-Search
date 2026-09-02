@@ -1,6 +1,6 @@
 import express from "express";
 import upload from "./services/file.upload.js";
-import BinaryTree from "./schemas/tree.schema.js";
+import BinaryTree from "./schema/tree.schema.js";
 import cors from "cors";
 
 const app = express();
