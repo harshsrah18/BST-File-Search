@@ -1,0 +1,2 @@
+Dummy report draft.
+Generated to populate the uploads folder with sample data.
