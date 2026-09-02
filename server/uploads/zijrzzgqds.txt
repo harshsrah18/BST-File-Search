@@ -1,0 +1,2 @@
+Meeting minutes - Sprint Review
+Discussed BST performance vs linear search for file lookup.

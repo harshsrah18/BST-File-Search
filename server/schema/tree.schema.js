@@ -13,7 +13,6 @@ class BinaryTree {
   }
 
   // insert
-
   insert(key, value) {
     const newNode = new TreeNode(key, value);
 
@@ -25,7 +24,6 @@ class BinaryTree {
   }
 
   // insert node
-
   _insertNode(node, newNode) {
     if (newNode.key < node.key) {
       if (node.left === null) {
@@ -48,11 +46,10 @@ class BinaryTree {
   }
 
   // search node
-
   _searchNode(node, key) {
     if (node === null) return null;
     if (key === node.key) return node.value;
-    if ((key < node, key)) return this._searchNode(node.left, key);
+    if (key < node.key) return this._searchNode(node.left, key);
     return this._searchNode(node.right, key);
   }
 

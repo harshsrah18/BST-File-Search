@@ -1,5 +1,5 @@
 import express from "express";
-import upload from "./services/file.upload.js";
+import upload from "./services/upload.file.js";
 import BinaryTree from "./schema/tree.schema.js";
 import cors from "cors";
 

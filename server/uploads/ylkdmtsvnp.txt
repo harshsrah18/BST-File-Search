@@ -1,0 +1,2 @@
+This is a test document for the BST file search project.
+Used to verify search functionality end to end.
